@@ -1,5 +1,25 @@
-incidents.db
-__pycache__/
+# Environment and secrets
+.env
 .venv/
 venv/
-.env
+ENV/
+
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database files
+incidents.db
+
+# Java build artifacts and class files
+bin/
+*.class
+*.jar
+reports/
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
